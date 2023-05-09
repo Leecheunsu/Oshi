@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            var bgm = new Audio('');
+            if(!bgm.canPlayType('audio/mp3')) alert('브라우저가 mp3 재생을 지원하지 않습니다.');
+            else {
+                var bgm_url = 'op.mp3';
+                bgm = new Audio(bgm_url);
+                bgm.volume = 0.3;
+                bgm.play();
+                display: none;
+            }
+            </script>
+        <style>
+            #main {
+         width: 100%;
+         margin-top: 300px;
+         animation-name: fadein;
+         animation-duration: 6s;
+         animation-timing-function: ease-in;
+         }
+         #main img{
+           width: 50%;
+         }
+         @keyframes fadein {
+             0% {
+                 opacity: 0;
+             }
+             25% {
+                 opacity: 0;
+             }
+             50% {
+                 opacity: 1;
+             }
+             100% {
+                 opacity: 1;
+             }
+         }
+            body {
+             background-image: url(chainner_Hoshino.Ai.600.3674853.jpg);
+             background-repeat: no-repeat;
+             background-attachment: local;
+             background-position: center top;
+             background-size: contain;
+             width: 1550px;
+             height: 1500px;
+             margin: auto;
+            }
+            .title{
+                display: block; margin: auto; width: 100%; height: 100%;
+            }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="main">
+         <img class="title" src="A_oOtZx4Awx9LECEMbWtMVklGqV6Sc5j4X_LuzHr6lRylCHyWCYsA96yNgtLeYwBGFySEz6tFfmqewRfcQV7xw.png">
+        </div>
+    </body>
+</html>
